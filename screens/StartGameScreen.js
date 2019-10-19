@@ -120,7 +120,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     width: '100%',
     justifyContent: 'space-between',
-    paddingHorizontal: 15
+    paddingHorizontal: 15,
+    paddingVertical: 8,
   },
   inputContainer: {
     width: '80%',

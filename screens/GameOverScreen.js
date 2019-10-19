@@ -58,9 +58,9 @@ const styles = StyleSheet.create({
     fontFamily: 'open-sans-bold',
   },
   imageContainer: {
-    borderRadius: (Dimensions.get('window').width * 0.7) / 2,
-    width: Dimensions.get('window').width * 0.7,
-    height: Dimensions.get('window').width * 0.7,
+    borderRadius: (Dimensions.get('window').width * 0.4) / 2,
+    width: Dimensions.get('window').width * 0.4,
+    height: Dimensions.get('window').width * 0.4,
     overflow: 'hidden',
     marginVertical: Dimensions.get('window').height / 30,
   },
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingTop: 10,
+    paddingVertical: 10,
   },
   image: {
     width: '100%',
